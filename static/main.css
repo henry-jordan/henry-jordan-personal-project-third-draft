@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&family=Righteous&display=swap');
+@import './styles/chat.css';
+@import './styles/home.css';
+@import './styles/welcome-subpage.css';
+
+body{
+    all:unset;
+    background-image: url('../static/styles/images/bg-image.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-position: 37%;
+    background-color: #282828;
+    color: white;
+    font-family:'Lexend', sans-serif;
+    font-weight: 200;
+    margin-top: 0;
+    overflow: hidden;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+.button-display {
+    display: block;
+}
